@@ -44,7 +44,8 @@ Now you can use Strapi Phone Validator as a custom field.
 
 You can also validate a phone number also on creating a new entity via API endpoint:
 
-```json
+```
+<code>
 import { factories, Strapi } from "@strapi/strapi";
 import { PhoneNumberUtil } from 'google-libphonenumber';
 
@@ -68,14 +69,14 @@ export default factories.createCoreController(
 
 
      if(isValid) {
-        ...
+        //...
      }
 
     ...
     },
   })
 );
-
+<code>
 ```
 
 **To make Strapi Phone Validator work, you should take a look at the next section.**
