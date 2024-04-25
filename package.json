@@ -1,0 +1,101 @@
+{
+  "name": "strapi-phone-validator",
+  "version": "0.3.1",
+  "description": "Strapi maintaned Custom Fields",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "strapi-plugin-phone-validator",
+    "phone-validator",
+    "strapi-phone-validator",
+    "strapi-custom-field",
+    "phone",
+    "validator",
+    "strapi-phone"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadjiu/strapi-phone-validator.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Hadjiu Sorin",
+    "email": "hadjiu.sorin@gmail.com",
+    "url": "https://github.com/shadjiu"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "exports": {
+    "./strapi-admin": {
+      "types": "./dist/admin/index.d.ts",
+      "source": "./admin/src/index.ts",
+      "import": "./dist/admin/index.mjs",
+      "require": "./dist/admin/index.js",
+      "default": "./dist/admin/index.js"
+    },
+    "./strapi-server": {
+      "types": "./dist/server/src/index.d.ts",
+      "source": "./server/src/index.ts",
+      "import": "./dist/server/index.mjs",
+      "require": "./dist/server/index.js",
+      "default": "./dist/server/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "./dist",
+    "strapi-server.js",
+    "strapi-admin.js"
+  ],
+  "scripts": {
+    "build": "strapi plugin:build --force",
+    "clean": "run -T rimraf ./dist",
+    "watch": "strapi plugin:watch"
+  },
+  "resolutions": {
+    "@types/react": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.18.0",
+    "@strapi/helper-plugin": "^4.24.0",
+    "@strapi/icons": "^1.18.0",
+    "google-libphonenumber": "^3.2.34",
+    "prop-types": "^15.8.1",
+    "react-international-phone": "^4.2.8"
+  },
+  "devDependencies": {
+    "@strapi/strapi": "^4.24.0",
+    "@strapi/typescript-utils": "^4.24.0",
+    "@types/google-libphonenumber": "^7.4.30",
+    "@types/react": "^18.2.79",
+    "@types/react-dom": "^18.2.25",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.34",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11",
+    "typescript": "5.4.2"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "packageManager": "yarn@4.1.1",
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "name": "strapi-phone-validator",
+    "displayName": "Strapi Phone Validator",
+    "description": "Strapi Phone Validator is a powerful and easy-to-use plugin designed to validate phone numbers in various formats. With support for international phone numbers, it offers comprehensive validation to ensure the accuracy of user-provided phone data in your applications.",
+    "kind": "plugin"
+  }
+}
