@@ -2533,7 +2533,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/helper-plugin@npm:4.24.0, @strapi/helper-plugin@npm:^4.24.0":
+"@strapi/helper-plugin@npm:4.24.0":
   version: 4.24.0
   resolution: "@strapi/helper-plugin@npm:4.24.0"
   dependencies:
@@ -2555,6 +2555,31 @@ __metadata:
     react-router-dom: ^5.2.0
     styled-components: ^5.2.1
   checksum: c2a81b90d4bf42c951aa251ab9961d1f32c46a4b35ab5bb6ac65e2867656bbb21a1bc398f352ea2acbecfca614889a305ba7a0f56afb2f4524f132f785f09d1f
+  languageName: node
+  linkType: hard
+
+"@strapi/helper-plugin@npm:^4.24.2":
+  version: 4.24.5
+  resolution: "@strapi/helper-plugin@npm:4.24.5"
+  dependencies:
+    axios: 1.6.0
+    date-fns: 2.30.0
+    formik: 2.4.0
+    immer: 9.0.19
+    lodash: 4.17.21
+    qs: 6.11.1
+    react-helmet: 6.1.0
+    react-intl: 6.4.1
+    react-query: 3.39.3
+    react-select: 5.7.0
+  peerDependencies:
+    "@strapi/design-system": 1.19.0
+    "@strapi/icons": 1.19.0
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+    react-router-dom: ^5.2.0
+    styled-components: ^5.2.1
+  checksum: 8/aba4eec90c9e94b23ff107d9c6a991b40235146a2e1b7b9c541641425d264ca2d979654d88c914507617e4e2457eb342edc611df2d4e945ba1119184810228e7
   languageName: node
   linkType: hard
 
@@ -6736,7 +6761,7 @@ __metadata:
 
 "fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.3#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -11336,7 +11361,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A~1.22.1#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
@@ -12209,7 +12234,7 @@ __metadata:
   resolution: "strapi-phone-validator@workspace:."
   dependencies:
     "@strapi/design-system": ^1.18.0
-    "@strapi/helper-plugin": ^4.24.0
+    "@strapi/helper-plugin": ^4.24.2
     "@strapi/icons": ^1.18.0
     "@strapi/strapi": ^4.24.0
     "@strapi/typescript-utils": ^4.24.0
@@ -12924,7 +12949,7 @@ __metadata:
 
 "typescript@patch:typescript@5.4.2#~builtin<compat/typescript>":
   version: 5.4.2
-  resolution: "typescript@patch:typescript@npm%3A5.4.2#~builtin<compat/typescript>::version=5.4.2&hash=d73830"
+  resolution: "typescript@patch:typescript@npm%3A5.4.2#~builtin<compat/typescript>::version=5.4.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -12934,7 +12959,7 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=d73830"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
