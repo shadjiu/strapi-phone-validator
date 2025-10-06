@@ -2558,13 +2558,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@strapi/icons@npm:1.18.0, @strapi/icons@npm:^1.18.0":
+"@strapi/icons@npm:1.18.0":
   version: 1.18.0
   resolution: "@strapi/icons@npm:1.18.0"
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
   checksum: 21c1ba43c018c9de9dcfb6673374cb031930089b3af21f2d6ee1ec34bccac3a97cd50a716679b12939ca4359f69423dabbeb9ff1d5a3ec9771dae794fdc24164
+  languageName: node
+  linkType: hard
+
+"@strapi/icons@npm:^1.19.0":
+  version: 1.19.0
+  resolution: "@strapi/icons@npm:1.19.0"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  checksum: 8/3da0ba201b9b1ac0a0c4cb1a792fb6e40a120532dbef6c4650a7bffd2c169b7d9957a8ddf32fae8cdfc405ac19f194b638dbcb23a2f359a8f96bd563570cd15c
   languageName: node
   linkType: hard
 
@@ -6736,7 +6746,7 @@ __metadata:
 
 "fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.3#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -11336,7 +11346,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A~1.22.1#~builtin<compat/resolve>":
   version: 1.22.8
-  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.8#~builtin<compat/resolve>::version=1.22.8&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
@@ -12210,7 +12220,7 @@ __metadata:
   dependencies:
     "@strapi/design-system": ^1.18.0
     "@strapi/helper-plugin": ^4.24.0
-    "@strapi/icons": ^1.18.0
+    "@strapi/icons": ^1.19.0
     "@strapi/strapi": ^4.24.0
     "@strapi/typescript-utils": ^4.24.0
     "@types/google-libphonenumber": ^7.4.30
@@ -12924,7 +12934,7 @@ __metadata:
 
 "typescript@patch:typescript@5.4.2#~builtin<compat/typescript>":
   version: 5.4.2
-  resolution: "typescript@patch:typescript@npm%3A5.4.2#~builtin<compat/typescript>::version=5.4.2&hash=d73830"
+  resolution: "typescript@patch:typescript@npm%3A5.4.2#~builtin<compat/typescript>::version=5.4.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -12934,7 +12944,7 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=d73830"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
