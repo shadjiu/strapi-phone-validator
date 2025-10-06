@@ -59,7 +59,7 @@
     "@types/react": "^17.0.0 || ^18.0.0"
   },
   "dependencies": {
-    "@strapi/design-system": "^1.18.0",
+    "@strapi/design-system": "^1.19.0",
     "@strapi/helper-plugin": "^4.24.0",
     "@strapi/icons": "^1.18.0",
     "google-libphonenumber": "^3.2.34",
